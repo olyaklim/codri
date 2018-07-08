@@ -16,8 +16,8 @@
 
 @font-face {
   font-family: 'Barlow';
-  src: url('../fonts/barlow/barlowsemicondensed-regular-webfont.woff2') format('woff2'),
-  url('../fonts/barlow/barlowsemicondensed-regular-webfont.woff') format('woff');
+  src: url('../fonts/barlow/barlowcondensed-regular.woff2') format('woff2'),
+  url('../fonts/barlow/barlowcondensed-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,60 +38,10 @@
   font-style: normal;
 }
 
-
-
-// @font-face {
-//   font-family: 'Barlow';
-//   src: url('../fonts/barlow/BarlowSemiCondensed_Regular.woff') format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Museo';
-//   src: url('../fonts/museo_sans/museosanscyrl_0.woff2') format('woff2'),
-//   url('../fonts/museo_sans/museosanscyrl_0.woff') format('woff');
-//   font-weight: 300;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Museo';
-//   src: url('../fonts/museo_sans/museosanscyrl_1.woff2') format('woff2'),
-//   url('../fonts/museo_sans/museosanscyrl_1.woff') format('woff');
-//   font-weight: 500;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Museo';
-//   src: url('../fonts/museo_sans/museosanscyrl_2.woff2') format('woff2'),
-//   url('../fonts/museo_sans/museosanscyrl_2.woff') format('woff');
-//   font-weight: 700;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Museo';
-//   src: url('../fonts/museo_sans/museosanscyrl_3.woff2') format('woff2'),
-//   url('../fonts/museo_sans/museosanscyrl_3.woff') format('woff');
-//   font-weight: 900;
-//   font-style: normal;
-// }
-
-
-
-// @font-face {
-//     font-family: 'Georgia';
-//     src: url('Georgia-Bold.woff2') format('woff2'),
-//         url('Georgia-Bold.woff') format('woff');
-//     font-weight: bold;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: 'Georgia';
-//     src: url('Georgia-BoldItalic.woff2') format('woff2'),
-//         url('Georgia-BoldItalic.woff') format('woff');
-//     font-weight: bold;
-//     font-style: italic;
-// }
+@font-face {
+  font-family: 'Lucida_unicode';
+  src: url('../fonts/lusida_unicode/lusida_unicode.woff2') format('woff2'),
+  url('../fonts/lusida_unicode/lusida_unicode.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

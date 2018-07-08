@@ -1,38 +1,51 @@
 //fonts
-$museo: Lucidastd, IrisUPS, Georgia, Barlow, Arial, sans-serif;
+$georgia: Georgia, Arial, sans-serif;
+$barlow: Barlow, Arial, sans-serif;
+$iris: IrisUPS, Arial, sans-serif;
+$lucida: Lucidastd, Arial, sans-serif;
+$lucida-unic: Lucida_unicode, Lucidastd, Arial, sans-serif;
 
 //main-color
-$theme_light: #50bf29;
-$theme_color: #019444;
 
-$theme_light_2: #e8ff99;
-$theme_color_2: #99d4b4;
+$bg-color: #c5dbe8;
+$container-color: #ededed;
 
-$logo_black: #6d6e73;
+$bg-h2: #ae0002;
+$bg-h3: #cacaca;
 
-$black: #212121;
-$white: #fff;
+$bg-header: #103948;
+$bg-banner: #1e1e1e;
 
-$brand-color: #212121;
-$brown: #212121;
-$dark: #4b4949;
-$dkgrey: #4b4b4b;
-$light: #ededed;
-$red-color: #d2441c;
-$red-color-hover: #f34514;
-$black-text: #333333;
-$border-color: #cccccc;
-$blue: #0b5297;
-$yellow: #feb005;
-$lightgrey: #d8d8d8;
+$bg-btn-video: #222222;
+$bg-ico-video: #d2d2d2;
+$bg-hover-menu: #092f3b;
+
+$bg-hotest: #85afbd;
+
+$c-hotest: #757575;
+
+$c-normal: #757575;
+
+$c-topmenu: #a6a6a6;
+$c-menu: #f6f6f6;
+
+
+$c-logo: #f6f6f6;
+$c-sub-logo: #6892a0;
+
+$c-link-news: #042b38;
+$c-comment: #989898;
+$c-tag: #2b5e5e;
+$symbol-color: #9c8d5f;
 
 //media
-$screen-notebook: 1680px;
+$screen-max:    1680px;
 $screen-lg-max: 1200px;
-$screen-tablet: 1024px;
-$screen-md-max: 992px;
-$screen-sm-max: 768px;
-$screen-xs-max: 544px;
+$screen-lg:     999px;
+$screen-md:     991px;
+$screen-sm:     767px;
+$screen-xs:     480px;
 
-//transition
-$anim: .3s;
+//other
+$anim: .2s;
+$radius: 5px;

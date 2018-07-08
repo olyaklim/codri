@@ -1,71 +1,66 @@
 html {
-  display: flex;
-  font-size: 16px;
+  font-size: 12px;
+  scroll-behavior: smooth;
 
-  @media screen and (max-width: $screen-notebook){
-    font-size: 16px;
-  }
-
-  @media screen and (max-width: $screen-lg-max){
-    font-size: 15px;
-  }
-
-  @media screen and (max-width: $screen-tablet){
-    font-size: 14px;
-  }
-
-  @media screen and (max-width: $screen-sm-max){
-    font-size: 13px;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 body {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  font-family: $museo;
-  font-weight: 400;
-  color: $black;
-  background-color: #c5dbe8;
+  background-color: $bg-color;
   background-image: url(../img/bg/sky.jpg),url(../img/bg/sky_pattern.jpg);
   background-repeat: no-repeat,repeat;
   background-size: 100%,150px;
   background-position: top, center;
+  font-family: $georgia;
+  color: $c-normal;
+  font-weight: 400;
 
-  &.fixed {
-    position: static;
-    overflow: hidden;
+  @media screen and (max-width: $screen-lg) {
+    background-image: none;
 
-    @media screen and (min-width: $screen-tablet) {
-      padding-right: 15px;
-    }
-
-    @media screen and (max-width: $screen-xs-max) {
-      position: fixed;
+    &.load::before {
+      display: none;
     }
   }
 
-  @media screen and (max-width: $screen-lg-max){
-    font-size: 14px;
-  }
-
-  @media screen and (max-width: $screen-tablet){
-    font-size: 12px;
-  }
-
-  @media screen and (max-width: $screen-sm-max){
-    font-size: 10px;
-  }
 }
 
 .container {
   max-width: 1000px;
-  padding: 0 31px;
+  padding: 0 10px;
   margin: 0 auto;
   background-color: #ededed;
 
-    &--fluid {
-      padding: 0; 
-    }
+  &.container--fluid {
+    padding: 0; 
+  }
+
+  @media screen and (min-width: $screen-xs) {
+    padding: 0 15px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    padding: 0 31px;
+  }
 }
 
+@supports(max-width: env(safe-area-inset-left)) {
+  .container {
+    max-width: calc(100% - env(safe-area-inset-left)*2);
+  }
+}
+
+@keyframes a {
+    0%,to {
+        transform: translateX(0)
+    }
+
+    70% {
+        transform: translateX(10px)
+    }
+}

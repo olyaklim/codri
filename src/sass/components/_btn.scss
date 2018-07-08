@@ -1,0 +1,30 @@
+//.btn-video +
+
+.btn-video {
+  position: absolute;
+  bottom: 9px;
+  left: 8px;
+  right: 0;
+  display: block;
+  width: 35px;
+  height: 35px;
+  padding: 8px 7px 8px 9px;
+  color: $bg-ico-video;
+  background-color: $bg-btn-video;
+  border-radius: 3px;
+  transition: background-color $anim, color 0.7s;
+  z-index: 1;
+ 
+  &:hover {
+    background-color: $bg-h2;
+    color: #ffffff;
+  }
+
+  &:active {
+    background-color: $bg-h2;
+    color: #ffffff;
+  }
+
+}
+
+//.btn-video -
